@@ -1,0 +1,17 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_driver: pdo_mysql
+    database_host: 127.0.0.1
+    database_port: null
+    database_name: loginDb
+    database_user: root
+    database_password: null
+    mailer_transport: gmail
+    mailer_host: smtp.gmail.com
+    mailer_user: kimberlydarl.barbadillo@chromedia.com
+    mailer_password: hopelessly123
+    locale: en
+    secret: 1d41abc04652e75877f9c23b0e107dc22bd9e293
+    debug_toolbar: true
+    debug_redirects: false
+    use_assetic_controller: true

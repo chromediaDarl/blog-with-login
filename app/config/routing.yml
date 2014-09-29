@@ -1,0 +1,17 @@
+blogger_blog:
+    resource: "@BloggerBlogBundle/Resources/config/routing.yml"
+    prefix:   /
+
+login:
+    pattern:   /login
+    defaults:  { _controller: BloggerBlogBundle:Security:login }
+login_check:
+    pattern:   /login_check
+
+test_security:
+    pattern: /secure_area
+    defaults: {_controller: BloggerBlogBundle:Page:index }
+
+logout:
+    path: /logout
+
